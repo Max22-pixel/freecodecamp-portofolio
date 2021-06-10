@@ -61,10 +61,11 @@ img {
   border: solid;
   border-color: rgb(7, 7, 7);
 }
-h1 {
+.about-me {
   margin-left: 50px;
   font-size: 2rem;
   color: rgba(255, 255, 255, 0.767);
+  margin-top: 300px;
 }
 p {
   margin-top: 0;
@@ -77,6 +78,8 @@ p {
 }
 .title {
   text-align: center;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.767);
 }
 .img-project {
   width: 500px;
@@ -89,7 +92,7 @@ p {
 #contact-me {
   text-align: center;
 }
-#profile-link {
+.contact-bar {
   display: flex;
   align-items: center;
 }
@@ -113,7 +116,7 @@ p {
     display: block;
   }
   nav {
-    background-color: goldenrod;
+    background-color: rgb(20, 20, 19);
     position: fixed;
     top: 71px;
     right: -100%;
@@ -125,6 +128,7 @@ p {
   }
   h1 {
     margin-left: 10px;
+    margin-top: 200px;
   }
   p {
     margin-left: 70px;
