@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300;1,400&display=swap");
 body {
   font-family: "Lato", sans-serif;
-  background-color: #90adc6;
+  background-image: linear-gradient(#90adc6, #e9eaec);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.teks-name {
+.teks-name1 {
   margin-left: 2rem;
 }
 .nav-link {
@@ -55,7 +55,7 @@ header {
   border-color: rgba(255, 255, 255, 0.849);
 }
 #About {
-  background-color: #e9eaec;
+  background-image: repeating-radial-gradient(#90adc6, #fad02c, #e9eaec);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -130,6 +130,52 @@ header {
   text-decoration: none;
   color: #333652;
   font-size: 15px;
+}
+.skill1 {
+  background-image: linear-gradient(#fad02c, #e9eaec, #90adc6);
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 6px 6px 6px#90adc6, 2px 2px 2px #e9eaec;
+}
+.skill-text {
+  margin-left: 2rem;
+  padding-top: 1rem;
+}
+#skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+.my-skill1 {
+  background: -webkit-linear-gradient(
+    #adf507,
+    rgb(233, 141, 4),
+    rgb(248, 8, 8)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.my-skill2 {
+  background: -webkit-linear-gradient(
+    #f0f3e9,
+    rgb(4, 46, 233),
+    rgb(49, 48, 48)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.my-skill3 {
+  background: -webkit-linear-gradient(
+    #0303e7,
+    rgb(218, 44, 38),
+    rgb(220, 248, 58)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @media (max-width: 1190px) {
   .tribute-page {
