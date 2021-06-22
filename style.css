@@ -79,18 +79,26 @@ header {
 }
 .title-title {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #333652;
-  text-shadow: 1px 1px 1px rgb(230, 215, 6), 3px 3px 5px rgb(246, 247, 243);
+  text-shadow: 2px 2px 2px#e9eaec, 5px 5px 7px #333652;
 }
 .img-project {
   width: 400px;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
 }
+.contact-bar {
+  text-decoration: none;
+  color: #333652;
+}
 #contact-link {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+#contact {
+  padding-bottom: 50px;
 }
 #contact-me {
   text-align: center;
@@ -100,19 +108,16 @@ header {
   display: block;
   margin: auto;
 }
-#contact-link {
-  margin: 0 250px 10px 250px;
-}
 .text {
   text-align: center;
   margin-top: 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .tribute-page {
   box-shadow: 5px 10px #333652;
   text-align: center;
   color: #333652;
-  background-color: #e9eaec;
+  background-image: linear-gradient(#90adc6, #e9eaec, #fad02c);
   margin-top: 30px;
   margin-left: 100px;
   margin-right: 100px;
@@ -216,12 +221,25 @@ header {
   -ms-transform: scale(1.02) rotate(720deg);
   transform: scale(1.02) rotate(720deg);
 }
+hr {
+  margin-top: 100px;
+  height: 2px;
+  background: #fad02c;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333652;
+  padding-left: 2%;
+  padding-right: 2%;
+}
 @media (max-width: 1190px) {
   .tribute-page {
     margin-left: 50px;
     margin-right: 50px;
-    /* border-top-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
     border-radius: 10%;
   }
 
@@ -246,9 +264,6 @@ header {
   #skill {
     font-size: 40px;
   }
-  .text {
-    display: none;
-  }
   #welcome-section {
     height: 50vh;
     font-size: 0.9rem;
@@ -258,8 +273,8 @@ header {
   .tribute-page {
     margin-left: 40px;
     margin-right: 40px;
-    /* border-top-left-radius: 30%;
-  border-bottom-right-radius: 30%; */
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
     border-radius: 10%;
   }
 }
@@ -305,8 +320,7 @@ header {
     padding-bottom: 0;
   }
   .title-title {
-    text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .tribute-page {
     font-size: 0.7rem;
@@ -327,7 +341,8 @@ header {
     font-size: 20px;
   }
   .text {
-    display: none;
+    text-decoration: none;
+    font-size: 10px;
   }
   header {
     height: 71px;
@@ -364,12 +379,11 @@ header {
     margin-left: 110px;
     font-size: 0.7rem;
   }
-
+  #contact-link {
+    margin-top: 50px;
+  }
   .img-project {
     width: 250px;
-  }
-  #contact-link {
-    margin: 0;
   }
   .nav-link:hover {
     color: #333652;
